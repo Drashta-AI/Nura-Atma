@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sage: #4A7C6B;
+  --sage-light: #EAF2EE;
+  --sage-dark: #2D5247;
+  --bg: #F8F6F1;
+  --card-bg: #FFFFFF;
+  --terracotta: #C4845A;
+  --amber: #D4A96A;
+  --text-primary: #2C2A27;
+  --text-muted: #7A7874;
+  --border-custom: #E8E4DC;
+  --badge-normal-bg: #EAF2EE;
+  --badge-normal-text: #2D5247;
+  --badge-watchful-bg: #FBF3E4;
+  --badge-watchful-text: #7A4F1A;
+  --badge-elevated-bg: #F5EAE4;
+  --badge-elevated-text: #7A3A22;
+  --radius-card: 20px;
+  --radius-pill: 100px;
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.04);
+
+  --background: 40 33% 96%;
+  --foreground: 36 5% 16%;
+  --card: 0 0% 100%;
+  --card-foreground: 36 5% 16%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 36 5% 16%;
+  --primary: 155 26% 39%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 150 25% 93%;
+  --secondary-foreground: 155 32% 24%;
+  --muted: 37 20% 92%;
+  --muted-foreground: 30 3% 47%;
+  --accent: 150 25% 93%;
+  --accent-foreground: 155 32% 24%;
+  --destructive: 15 50% 45%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 33 17% 88%;
+  --input: 33 17% 88%;
+  --ring: 155 26% 39%;
+  --radius: 0.75rem;
+
+  --sidebar-background: 40 33% 96%;
+  --sidebar-foreground: 36 5% 16%;
+  --sidebar-primary: 155 26% 39%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 150 25% 93%;
+  --sidebar-accent-foreground: 155 32% 24%;
+  --sidebar-border: 33 17% 88%;
+  --sidebar-ring: 155 26% 39%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  font-family: 'DM Serif Display', serif;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.35s ease;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+}

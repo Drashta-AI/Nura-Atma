@@ -1,0 +1,27 @@
+[
+  {
+    "week_number": 1,
+    "success": true,
+    "overall_state": "watchful",
+    "support_message": "\"Hey, it's great that you're being watchful about how you're doing. That takes a lot of self-awareness and care. How are you feeling about taking small steps forward this week, and is there anything that's been on your mind lately?\"",
+    "errors": [
+      "Physiological agent error: Invalid control character at: line 7 column 105 (char 1003)"
+    ]
+  },
+  {
+    "week_number": 2,
+    "success": true,
+    "overall_state": "watchful",
+    "support_message": "Hi there, it's great to catch up with you again! I'm loving the sense of positivity and enthusiasm you've been feeling towards the end of the week. It's awesome to see you're starting to find your momentum. Keep taking things one step at a time, and remember that it's okay to take breaks when you need to - you're doing your best, and that's something to be proud of. How's everything feeling right now?",
+    "errors": []
+  },
+  {
+    "week_number": 3,
+    "success": true,
+    "overall_state": "watchful",
+    "support_message": "It's great that you're taking the time to check in with yourself, especially after a few weeks of adjusting to new routines and stressors. You're being watchful, which is really a sign of self-care and awareness - that's something to be proud of. How have you been feeling lately?",
+    "errors": [
+      "Context agent error: Extra data: line 19 column 1 (char 424)"
+    ]
+  }
+]
