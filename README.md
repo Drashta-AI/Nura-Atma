@@ -1,4 +1,3 @@
-give this readme in markdown format
 
 # NURA WELLNESS APP
 
