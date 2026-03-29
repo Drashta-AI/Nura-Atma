@@ -1,0 +1,18 @@
+# Direct dependencies
+langchain>=0.1.0
+langchain-core>=0.1.0
+langgraph>=0.0.1
+langchain-groq>=0.1.0
+pydantic>=2.0
+pandas>=2.0
+openpyxl>=3.0
+python-dotenv>=1.0
+sqlalchemy>=2.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+
+# Optional dev dependencies
+pytest>=7.0
+black>=23.0
+ruff>=0.1
+mypy>=1.0
